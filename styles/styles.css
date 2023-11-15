@@ -79,6 +79,10 @@ body {
     color: #fff;
 }
 
+.nav__link:hover {
+    border-bottom: 1px solid #fff;
+}
+
 .currency {
     color: #fff;
     width: 45px;
@@ -93,6 +97,10 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.main-content {
+    padding: 103px 0 199px;
 }
 
 .main-content__wrapper {
