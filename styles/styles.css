@@ -152,6 +152,7 @@ body {
 }
 
 .button {
+    cursor: pointer;
     width: 160px;
     color: #191411;
     text-align: center;
@@ -171,7 +172,7 @@ body {
 }
 
 .button:hover {
-    background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
+    background: url("../img/shopping-card.svg") no-repeat calc(100% - 24px) center, linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
 }
 
 .main-content__img {
