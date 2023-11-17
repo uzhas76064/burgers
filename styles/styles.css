@@ -151,7 +151,7 @@ body {
     line-height: normal;
 }
 
-.link-button {
+.button {
     width: 160px;
     color: #191411;
     text-align: center;
@@ -170,7 +170,7 @@ body {
     text-decoration: none;
 }
 
-.link-button:hover {
+.button:hover {
     background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
 }
 
@@ -178,4 +178,169 @@ body {
     position: absolute;
     top: -123px;
     left: calc(100% - 991px);
+}
+
+.features {
+    margin-bottom: 180px;
+}
+
+.features__title {
+    margin-bottom: 60px;
+    text-align: center;
+    color: #fff;
+    /* H2 */
+    font-family: Merriweather, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
+
+.features-list {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.features-list__item {
+    text-align: center;
+    width: 312px;
+}
+
+.features-list__img {
+    margin-bottom: 24px;
+}
+
+.features-list__title {
+    margin-bottom: 24px;
+    color: #fff;
+    text-align: center;
+
+    /* P1 */
+    font-family: Gilroy, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.features-list__text {
+    color: #fff;
+    text-align: center;
+
+    /* P2 */
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+}
+
+.products {
+    background-image: url("../img/burgers_bg.png");
+    background-position: top center;
+    background-size: 1400px;
+    padding-bottom: 180px;
+}
+
+.products__title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+
+    /* H2 */
+    font-family: Merriweather, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
+
+.products-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    gap: 24px;
+}
+
+.products-list__item {
+    border-radius: 16px;
+    border: 1px solid #353535;
+    background:  #211A16;
+    padding: 30px;
+}
+
+.products-item__img {
+    margin-bottom: 24px;
+}
+
+.products-item__title {
+    color: #FFF;
+    font-family: Gilroy, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.products-item__text {
+    color: #FFF;
+    width: 302px;
+
+    /* P2 */
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    margin-bottom: 24px;
+}
+
+.products-item__actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-item__params {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-item__price {
+    margin-bottom: 8px;
+    color: #FFF;
+    font-family: Gilroy, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.products-item__weight {
+    color: #757575;
+
+    /* P2 light */
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.purchase-button {
+    border: none;
+    width: 182px;
+    padding: 19px 84px 19px 50px;
+    background: url("../img/shopping-card.svg") no-repeat calc(100% - 24px) center,
+                linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
 }
