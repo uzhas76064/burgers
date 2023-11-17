@@ -345,3 +345,111 @@ body {
     background: url("../img/shopping-card.svg") no-repeat calc(100% - 24px) center,
                 linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
 }
+
+
+.order {
+    background-image: url("../img/order_bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 180px;
+    overflow: hidden;
+}
+
+.order__title {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 60px;
+
+    /* H2 */
+    font-family: Merriweather, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
+
+.order__wrapper {
+    position: relative;
+}
+
+.order__img {
+    position: absolute;
+    top: 0;
+    right: calc(100% - 764px);
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #353535;
+    background:  #211A16;
+    width: 424px;
+    padding: 60px 40px 60px 40px;
+    margin-left: 674px;
+}
+
+.order-form__title {
+    margin-bottom: 40px;
+    color: #FFF;
+    text-align: center;
+
+    /* P1 */
+    font-family: Gilroy, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.order-form__field {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.order-form__input {
+    width: 344px;
+    padding: 16px 10px;
+    color: #757575;
+
+    /* P2 */
+    font-family: Gilroy,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 8px;
+    border: 1px solid #DA8023;
+    background: #211A16;
+}
+
+.order-button {
+    border-radius: 8px;
+    width: 344px;
+    border: none;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__wrapper .logo {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.copyrights {
+    display: block;
+    text-decoration: none;
+    color:  #FFF;
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
