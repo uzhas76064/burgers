@@ -432,6 +432,10 @@ body {
     border: none;
 }
 
+.order-button:hover {
+    background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
+}
+
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
