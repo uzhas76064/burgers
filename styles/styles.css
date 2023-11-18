@@ -403,6 +403,8 @@ body {
     width: 424px;
     padding: 60px 40px 60px 40px;
     margin-left: 674px;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .order-form__title {
